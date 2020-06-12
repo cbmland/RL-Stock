@@ -91,6 +91,7 @@ virtualenv -p python3.6 venv
 source ./venv/bin/activate
 # 安装库依赖
 pip install -r requirements.txt
+conda install cudatoolkit=10.0 -c pytorch
 ```
 
 ### 股票数据获取
